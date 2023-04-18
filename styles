@@ -1,0 +1,39 @@
+ body {
+    background-color: #A5D7E8;
+    color: #3C486B;
+    text-align: left;
+ }
+ hr {
+    border-color: #FFF4E0;
+    background-color: #A5D7E8;
+    border-style: dotted none none;
+    border-width: 5px;
+    height: 0px;
+    width: 4%;
+ }
+ h3 {
+    text-align: center;
+    color: #B2A4FF;
+ }
+ h1 {
+    text-align: center;
+    color: #FDF7C3;
+ }
+ a {
+    color: #4E6E81;
+    text-decoration-color: #002B5B;
+ }
+ .contact {
+    text-align: left;
+ }
+ ul {
+
+    list-style: square;
+    list-style-position: inside;
+ }
+ .work_exp {
+    padding-left: 20px;
+ }
+.work {
+    padding-left: 20px;
+}
