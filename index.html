@@ -1,72 +1,100 @@
-<html>
-    <head>
-        <meta charset="utf-8">
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Wendell's Personal Site</title>
-        <link rel="stylesheet" href="css/styles.css">
-    </head>
-    <body>
-        <table cellspacing="23">
-            <tr>
-                <td><img src="wendell_milo-modified.png" alt="wendell hollis profile picture" width="185" height="185"></td>
-                <td><h1>Wendell Hollis</h1>
-                <h3>My Background</h3>
-                <p>Salutations! If you have found your way here I'd wager you're either a potential employer or an intrigued classmate(of course there's always the third scenario, albeit much less likely to happen; you've somehow managed to string together the perfect combination of keywords in a search engine and ended up on my site). In any case, welcome! I've worked in the security field for the past six years, and while it has its perks, it isn't a career. With that pill bitterly swallowed, I finally decided to learn how to program in 2022. This undertaking has been something I've dreamt about since a young age when I would find myself constantly questioning how video games worked or how a computer was able to...well...compute. As it turned out, the answer is people! So here I am.</p></td>
-            </tr>
-        </table>
-        <hr noshade="0">
-        <h3>Education</h3>
-        <ul>
-            <li>Thinkful Bootcamp</li>
-            <li><a href="https://www.100daysofcode.com/">100 Days of Code: The Complete Python Pro Bootcamp</a> by <em>Angela Yu</em></li>
-            <li><a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard's CS50x</a> by <em>David Malan</em></li>
-            <li><a href="https://www.py4e.com/">Python For Everybody</a></li>
-            <li>First-Aid Certified</li>
-            <li>CPR Certified</li>
-            <li>CNA/CMA Certified and Licensed</li>
-            <li>Situational Awareness and Self Defense Training(SHSG, 2022)</li>
-        </ul>
-        <hr noshade="0">
-        <h3>Work Experience</h3>
-        <table class="work_exp">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                 <tr class="work_row">
-                    <td class="work_date">2018-Present</td>
-                    <td class="work">Security Supervisor at Safe Haven Security Group(formerly Allied Universal)</td>
-                </tr>
-                <tr>
-                    <td class="work_date">2016-2018</td>
-                    <td class="work">Caregiver at New Vista Behavioral Group</td>
-                </tr>
-                <tr>
-                    <td class="work_date">2014-2017</td>
-                    <td class="work">Truck Leader/Grillmaster/Maintenance at McDonald's</td>
-                </tr>
-            </tbody>
-        </table>
-        <hr noshade="0">
-        <h3>Skills</h3>
-        <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>HTML</li>
-            <li>CSS</li>
-        </ul>
-        <hr noshade="0">
-        <h3>Achievements</h3>
-        <ul>
-            <li>2015 Kentucky State Fair Finalist(music)</li>
-            <li><strong>Winner</strong> of 2015 Lincoln County Music Fest</li>
-            <li>Completed CNA/CMA licensing in high school</li>
-            <li>Writing credits on songs from world-famous artists(ex. "<a href="https://open.spotify.com/track/4iFgDdqdRSCUXEy5mV6pHd"><em>A Good Thing</em></a>" by Jeff Manseau)</li>
-        </ul>
-        <hr noshade="0">
-        <h3 class="contact"><a href="contact.html">Contact Me</a></h3>
+        <link rel="stylesheet" href="styles.css">
+      </head>
+      <body>
+        <!--making a header that consists of a table so I can place my picture on the left and intro on the right-->
+        <header>
+            <div>
+                <table class="intro-text">
+                    <tr>
+                        <td><img src="wendell_milo-modified.png" alt="wendell hollis profile picture" width="185" height="185"></td>
+                        <td><h1>Wendell Hollis</h1>
+                            <section id="intro">
+                                <h3>My Background</h3>                        
+                                <p>Salutations! If you have found your way here I'd wager you're either a potential employer or an intrigued classmate(of course there's always the third scenario, albeit much less likely to happen; you've somehow managed to string together the perfect combination of keywords in a search engine and ended up on my site). In any case, welcome! Residing in Kentucky, I've worked in the security field for the past six years, and while it has its perks, it isn't a career. With that pill bitterly swallowed, I finally decided to learn how to program in 2022. This undertaking has been something I've dreamt about since a young age when I would find myself constantly questioning how video games worked or how a computer was able to...well...compute. As it turned out, the answer is people! So here I am.</p>
+                            </section>
+                        </td>
+                    </tr>
+                </table>            
+            </div>
+        </header>
+        <!--the main will consist of my experience, education and achievements related 
+            and/or not related to programming-->
+        <main>
+            <div>
+                <section id="about-me">
+                    <hr>
+                <h3>Education</h3>
+                    <ul>
+                        <li>Thinkful Bootcamp</li>
+                        <li><a href="https://www.100daysofcode.com/">100 Days of Code: The Complete Python Pro Bootcamp</a> by <em>Angela Yu</em></li>
+                        <li><a href="https://www.edx.org/course/introduction-computer-science-harvardx-cs50x">Harvard's CS50x</a> by <em>David Malan</em></li>
+                        <li><a href="https://www.py4e.com/">Python For Everybody</a></li>
+                        <li>First-Aid Certified</li>
+                        <li>CPR Certified</li>
+                        <li>CNA/CMA Certified and Licensed</li>
+                        <li>Situational Awareness and Self Defense Training(SHSG, 2022)</li>
+                    </ul>
+            
+                <hr>
+                <h3>Work Experience</h3>
+                    <table class="work_exp">
+                        <thead>
+                            <tr>
+                                <th>Dates</th>
+                                <th>Work</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="work_row">
+                                <td class="work_date">2018-Present</td>
+                                <td class="work">Security Supervisor at Safe Haven Security Group(formerly Allied Universal)</td>
+                            </tr>
+                            <tr>
+                                <td class="work_date">2016-2018</td>
+                                <td class="work">Caregiver at New Vista Behavioral Group</td>
+                            </tr>
+                            <tr>
+                                <td class="work_date">2014-2017</td>
+                                <td class="work">Truck Leader/Grillmaster/Maintenance at McDonald's</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                <hr>
+                <h3>Skills</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                <hr>
+                <h3>Achievements</h3>
+                    <ul>
+                        <li>2015 Kentucky State Fair Finalist(music)</li>
+                        <li><strong>Winner</strong> of 2015 Lincoln County Music Fest</li>
+                        <li>Completed CNA/CMA licensing in high school</li>
+                        <li>Writing credits on songs from world-famous artists(ex. "<a href="https://open.spotify.com/track/4iFgDdqdRSCUXEy5mV6pHd"><em>A Good Thing</em></a>" by Jeff Manseau)</li>
+                    </ul>
 
-    </body>
-</html>
+                </section>            
+            </div>
+        </main>
+        <!--the footer will be used for contact page-->
+        <footer>
+            <div>
+                <section id="contact-me">
+                    <hr>
+                    <h3 class="contact"><a href="contact.html">Contact Me</a></h3>
+                </section>                
+            </div>
+        </footer>               
+        <script src="index.js"></script>
+      </body>
+    </html>
