@@ -27,21 +27,30 @@
     text-align: center;
     color: #FDF7C3;
  }
- a {
+ h4 {
+   margin-left: 10px;
+   color: white;
+ }
+ a:link {
     color: #4E6E81;
     text-decoration-color: #002B5B;
  }
+
+ a:hover {
+   color: whitesmoke;
+ }
  .contact {
     text-align: left;
+ }
+
+ .contact-link::before {
+   content: "Socials";
  }
  ul {
 
     list-style: square;
     list-style-position: inside;
  }
- .work_exp {
+ .work_exp, .work {
     padding-left: 20px;
  }
-.work {
-    padding-left: 20px;
-}
